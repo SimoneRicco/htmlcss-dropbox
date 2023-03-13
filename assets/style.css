@@ -11,10 +11,19 @@
     padding: 10px 15px;
     border: none;
 }
+html{
+    font-family: 'Roboto', sans-serif;
+}
 .container{
     width: 60%;
     margin: auto;
-    font-family: 'Roboto', sans-serif;
+}
+.small-container{
+    width: 50%;
+    margin: auto;
+}
+h2{
+    font-size: 2.5rem;
 }
 /* header + nav */
 
@@ -73,4 +82,94 @@ header h1{
 .arrow{
     font-size: 3rem;
     margin-top: 2rem;
+}
+/* main  */
+.buisness{
+    padding-top: 7rem;
+}
+.radio-section{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 5rem 0;
+}
+.radio-option{
+    display: flex;
+}
+.radio{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.radio-on{
+    border: 5px solid blue;
+}
+.radio-off{
+    border: 2px solid gray;
+}
+/* subscription area */
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-container{
+    border: 1px solid gray;
+    width: calc(100% / 3 - 2rem);
+}
+.cat{
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid gray;
+}
+.all-info{
+    padding: 2rem 1.5rem;
+}
+.sub-type{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.price{
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+.payment-time{
+    margin-top: 1rem;
+    color: gray;
+}
+.tech-info{
+    margin-top: 4rem;
+}
+.users, .space, .share {
+    margin-top: 2rem;
+}
+.buy{
+    margin-top: 3rem;
+}
+.buy-now{
+    margin-top: 2rem;
+}
+.all-info hr{
+    width: 20%;
+    border: 1px solid gray;
+    margin-top: 2.5rem;
+}
+.list-title{
+    font-weight: bold;
+}
+.advantages{
+    margin-top: 3rem;
+}
+.advantages ul{
+    margin-top: 2rem;
+    list-style: none;
+}
+.advantages li::before{
+    content: "\2713";
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.advantages li{
+    margin-top: 1rem;
 }
