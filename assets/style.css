@@ -175,12 +175,15 @@ header h1{
     padding-left: 20px;
 }
 .sub-container-foot{
-    border: 1px solid gray;
     margin-top: 3rem;
     max-height: 250px;
 }
+.sub-container-foot .cat{
+    border: 1px solid gray;
+}
 .sub-container-foot .all-info{
     display: flex;
+    border: 1px solid gray;
 }
 .container-right{
     width: 30%;
@@ -192,5 +195,5 @@ header h1{
     margin: 3rem 0;
 }
 .plan-foot .all-info{
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.5rem 0 1.5rem;
 }
