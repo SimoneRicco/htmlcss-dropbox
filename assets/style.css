@@ -322,3 +322,19 @@ header h1{
 .agency-img img{
     width: 50%;
 }
+/* free tira  */
+.trial-area{
+    background-color: #B4D0E7;
+    padding: 8rem 0;
+}
+.trial-area .small-container{
+    display: flex;
+    justify-content: space-between;
+}
+.free-trial-btn{
+    padding: 10px 15px;
+    border: none;
+    text-align: center;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
