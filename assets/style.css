@@ -348,12 +348,35 @@ header h1{
 }
 .question{
     padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
+    height: 5rem;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
 }
 .border{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+/* question menu  */
+.q-arrow{
+    position: absolute;
+    right: 0;
+}
+.question .fa-chevron-up{
+    opacity: 0;
+}
+.lorem{
+    margin-top: 5rem;
+}
+.question:hover{
+    height: auto;
+    overflow: visible;
+}
+.question:hover .fa-chevron-up{
+    opacity: 100%;
+}
+.question:hover .fa-chevron-down{
+    opacity: 0;
 }
 /* footer  */
 footer{
