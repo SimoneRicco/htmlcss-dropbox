@@ -83,6 +83,7 @@ header h1{
 .arrow{
     font-size: 3rem;
     margin-top: 2rem;
+    color: black;
 }
 /* main  */
 .buisness{
@@ -249,4 +250,11 @@ header h1{
 }
 .feat-desc{
     margin-top: 2rem;
+}
+/* dropbox users */
+.dropbox-users{
+    margin-top: 10rem;
+}
+.find-out{
+    margin-top: 3rem;
 }
