@@ -312,7 +312,9 @@ header h1{
     overflow: scroll;
 }
 .central-block hr{
-    border: 2px solid red;
+    border: 1px solid lightgray;
+    flex: 0 0 20%;
+    height: 0;
 }
 .agency-img{
     flex-basis: 100%;
