@@ -276,10 +276,10 @@ header h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: white;
 }
 .agency img{
     width: 100%;
+    filter: invert();
 }
 .ag1{
     background-color: #A2D39B;
@@ -308,4 +308,15 @@ header h1{
 }
 .central-block{
     background-color: #F5F5F5;
+    padding: 4rem;
+    overflow: scroll;
+}
+.central-block hr{
+    border: 2px solid red;
+}
+.agency-img{
+    flex-basis: 100%;
+}
+.agency-img img{
+    width: 50%;
 }
