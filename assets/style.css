@@ -197,3 +197,32 @@ header h1{
 .plan-foot .all-info{
     padding: 2rem 1.5rem 0 1.5rem;
 }
+/* partner area  */
+.partner{
+    display: flex;
+    margin-top: 10rem;
+}
+.partner-img{
+    width: 60%;
+    margin-right: 3rem;
+}
+.partner-img img{
+    width: 100%;
+}
+.partner-text{
+    width: calc(40% - 3rem);
+    line-height: 1.3rem;
+}
+.partner-btn{
+    padding: 10px 15px;
+    border: 2px solid gray;
+    text-align: center;
+    background-color: white;
+    margin-top: 2rem;
+}
+.partner-title{
+    margin-top: 5rem;
+}
+.partner-desc{
+    margin-top: 1.5rem;
+}
